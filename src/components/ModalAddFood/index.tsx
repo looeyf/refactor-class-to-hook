@@ -10,6 +10,7 @@ interface FoodData {
   id: number;
   name: string;
   description: string;
+  available: boolean;
   price: string;
   image: string;
 }
